@@ -10,3 +10,7 @@ resource "aws_instance" "terraform-first-ec2" {
   Name = "Hello-First-Terraform-EC2" 
   }
 }
+
+resource "aws_iam_user" "my-user" {
+  name = "terraform-user1"
+ }
